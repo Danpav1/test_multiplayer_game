@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://nyl7lhpfgxue"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_fr10l"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_fr10l")
+
+[node name="HostButton" type="Button" parent="."]
+offset_left = 16.0
+offset_top = 37.0
+offset_right = 118.0
+offset_bottom = 68.0
+text = "Host Button"
+
+[node name="JoinButton" type="Button" parent="."]
+offset_left = 16.0
+offset_top = 80.0
+offset_right = 111.0
+offset_bottom = 111.0
+text = "Join Button"
+
+[node name="ConnectionStatusLabel" type="Label" parent="."]
+offset_left = 14.0
+offset_top = 5.0
+offset_right = 160.0
+offset_bottom = 28.0
+text = "Connection Status:"
